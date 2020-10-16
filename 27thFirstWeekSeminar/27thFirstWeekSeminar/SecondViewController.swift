@@ -8,15 +8,26 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    var dvc: ViewController?
+    @IBOutlet weak var tf: UITextField!
     @IBAction func touchUpBack(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        let preVC = self.presentingViewController 
+//        print(preVC)
+        dvc = self.storyboard?.instantiateViewController(withIdentifier: "firstVC") as! ViewController
+        print(dvc)
+        print("1")
+        dvc!.labelText = self.tf.text!
+        self.dismiss(animated:true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        self.present(dvc!,animated:false)
+        
     }
     
 
