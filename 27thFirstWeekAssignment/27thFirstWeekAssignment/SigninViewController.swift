@@ -9,21 +9,27 @@ import UIKit
 
 class SigninViewController: UIViewController {
 
+    @IBOutlet weak var partTextField: UITextField!
+    @IBOutlet weak var nameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func touchUpSignin(_ sender: Any) {
+        let dvc = self.navigationController?.presentingViewController
+        guard let vc = dvc as? MainViewController else{
+            return
+        }
+        vc.nameValue = nameTextField.text ?? ""
+        vc.partValue = partTextField.text ?? ""
+        self.navigationController?.presentingViewController?.dismiss(animated : true)
     }
-    */
-
+    @IBAction func touchUpSignup(_ sender: Any) {
+        guard let dvc = self.storyboard?.instantiateViewController(withIdentifier: "SignupViewController") as? SignupViewController else{
+            return
+        }
+        self.navigationController?.pushViewController(dvc, animated: true)
+    }
+    
 }
