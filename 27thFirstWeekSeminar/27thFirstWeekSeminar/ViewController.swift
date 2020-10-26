@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         self.present(dvc,animated:true)
     }
     @IBAction func touchUpClick(_ sender: Any) {
-        myLabel.text = "hi 나는 예스리ㅣㅣㅣ"
+        myLabel.text = "hi 나는 예스리"
         myLabel.sizeToFit()
     }
     override func viewDidLoad() {
