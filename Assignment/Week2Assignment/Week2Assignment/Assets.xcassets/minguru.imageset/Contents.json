@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "minguru.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "minguru@2x.png",
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "minguru@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

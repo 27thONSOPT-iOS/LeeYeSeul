@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "younghun.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "younghun@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "idiom" : "universal",
+      "filename" : "younghun@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

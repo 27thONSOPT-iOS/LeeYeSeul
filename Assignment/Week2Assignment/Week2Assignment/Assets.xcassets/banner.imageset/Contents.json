@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "banner.png",
+      "scale" : "1x",
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "banner@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "idiom" : "universal",
+      "filename" : "banner@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
