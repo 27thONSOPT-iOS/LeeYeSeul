@@ -1,9 +1,7 @@
 ## 2주차 과제 - ScrollView와 StackView, AutoLayout 사용하기😄
 
----
 
 오토레이아웃 잡기가 번거로운 뷰지만 스택뷰를 통해 좀 더 편하게 오토레이아웃을 잡을 수 있었다!
-
 
 
 ### ScrollView에 대한 AutoLayout
