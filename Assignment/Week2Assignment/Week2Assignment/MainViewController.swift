@@ -34,7 +34,7 @@ class MainViewController: UIViewController {
 extension MainViewController: UIScrollViewDelegate{
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let y = scrollView.contentOffset.y
-        if y<508{
+        if y<420{ //banner의 높이만큼
             topButton.alpha = 0
         }
         else{
