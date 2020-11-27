@@ -10,6 +10,6 @@
 |[Week 3️⃣](./Assignment/Week3Assignment)|DelegatePattern, TableView, CollectionView| - |
 |[Week 4️⃣](./Assignment/Week4Assignment)|Animation, TabbarController, CocoaPods| - |
 |Week 5️⃣|디자인 합동 세미나| - |
-|Week 6️⃣|Networking, RestAPI, Sopkathon| - |
+|[Week 6️⃣](./Assignment/Week6Assignment)|Networking, RestAPI, Sopkathon| - |
 |Week 7️⃣|서버 합동 세미나| - |
 |Week 8️⃣|Open API| - |
